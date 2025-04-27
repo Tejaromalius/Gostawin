@@ -1,0 +1,7 @@
+# Files
+**/__debug*
+**/.gob
+
+# Directories
+.vscode/
+bin/
