@@ -4,9 +4,7 @@
 
 Gostawin is a terminal-based application for Linux desktops (specifically X11 Windows) that tracks the cumulative time you spend actively using different application windows. It provides a simple TUI (Text-based User Interface) to view program usage statistics, persisted across sessions.
 
-<p align="center">
-<video src="https://github.com/Tejaromalius/Gostawin/raw/refs/heads/main/assets/demo.mp4" alt="Demo" autoplay loop muted playsinline width=500/>
-</p>
+<p align="center"><image src="https://github.com/Tejaromalius/Gostawin/raw/refs/heads/main/assets/demo.gif" alt="Demo" width=500/></p>
 
 ## Features
 
