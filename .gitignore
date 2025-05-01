@@ -1,6 +1,7 @@
 # Files
 **/__debug*
 **/.gob
+**/go.sum
 
 # Directories
 .vscode/
