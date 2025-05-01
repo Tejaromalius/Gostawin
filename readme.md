@@ -1,10 +1,12 @@
 # Gostawin
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/Tejaromalius/Gostawin)](https://goreportcard.com/report/github.com/your_username/gostawin) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Go Report Card](https://goreportcard.com/badge/github.com/Tejaromalius/Gostawin)](https://goreportcard.com/report/github.com/Tejaromalius/gostawin) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Gostawin is a terminal-based application for Linux desktops (specifically X11 Windows) that tracks the cumulative time you spend actively using different application windows. It provides a simple TUI (Text-based User Interface) to view program usage statistics, persisted across sessions.
 
-<!-- ![Gostawin Demo](https://raw.githubusercontent.com/Tejaromalius/Gostawin/main/assets/demo.webp) -->
+<p align="center">
+<video src="https://github.com/Tejaromalius/Gostawin/raw/refs/heads/main/assets/demo.mp4" alt="Demo" autoplay loop muted playsinline width=500/>
+</p>
 
 ## Features
 
