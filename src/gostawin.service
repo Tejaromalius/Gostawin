@@ -1,0 +1,26 @@
+[Unit]
+Description=Gostawin - Background Window Time Tracker
+Documentation=https://github.com/Tejaromalius/Gostawin
+After=graphical-session.target
+
+[Service]
+ExecStart=$(which gostawin) --daemon
+
+# Environment variables needed for wmctrl to connect to the X server
+# These are typically needed when running as a systemd --user service
+Environment="DISPLAY=%i" # %i is the display number (e.g., :0)
+Environment="XAUTHORITY=%h/.Xauthority" # %h is the user's home directory
+
+Restart=on-failure # Restart the service if it fails
+RestartSec=5s      # Wait 5 seconds before restarting
+
+# Optional: Logging configuration (systemd journal usually captures stdout/stderr)
+# StandardOutput=journal
+# StandardError=journal
+
+# Optional: Limit resources
+# MemoryMax=100M
+# CPUQuota=10%
+
+[Install]
+WantedBy=graphical-session.target # Enable the service to start with the graphical session
